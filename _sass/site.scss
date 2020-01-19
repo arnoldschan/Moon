@@ -75,8 +75,8 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: rgba($color_shark,0.80);
-	color: $color_shark;
+	background-color: $capsulebg;
+	color: $capsuletext;
 	z-index: 1;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
@@ -104,8 +104,8 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: $white;
-	color: $color_tuatara;
+	background: $capsulebg;
+	color: $capsuletext;
 	padding: 2em;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
