@@ -32,11 +32,13 @@
 }
 
 // headings
-h3.title a {
+h3.title a{
 	color: $color_shark;
 	text-decoration: none;
 }
-
+.title {
+	color: $white;
+}
 // post list
 .post-list {
     text-align: left;

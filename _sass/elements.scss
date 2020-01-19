@@ -17,6 +17,10 @@
 	margin: 10px;
 	@extend %btnextend;
 }
+
+.social-btn {
+  color: $color_shark;
+}
 .btn {
 	padding: 10px 18px;
 	@include font-rem(14);
@@ -95,12 +99,12 @@ hr {
 	&.hr-line {
 		border: 0;
 		height: 1px;
-		opacity: .15;
+		opacity: .45;
 		margin: 1em 0;
-		background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+		background-image: -webkit-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -moz-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -ms-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -o-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
 	}
 }
 
