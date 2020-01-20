@@ -82,10 +82,12 @@ body {
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
 	@media #{$small} {
+		margin-top: 3rem;
 		width: 100%;
 	    box-shadow: none;
 	}
 	@media #{$medium} {
+		margin-top: 5rem;
 		width: 80%;
 	}
 }
