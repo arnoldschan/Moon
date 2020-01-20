@@ -28,49 +28,49 @@
 	@extend %btnextend;
 	&.btn-success {
       background-color: $success;
-      color: $white;
+      color: $color_tuatara;
       border-color: $success;
       &:visited {
-        color: $white;
+        color: $color_tuatara;
       }
       &:hover {
-        background-color: $white;
+        background-color: $color_tuatara;
         color: $success;
       }
     }
     &.btn-warning {
       background-color: $warning;
-      color: $white;
+      color: $color_tuatara;
       border-color: $warning;
       &:visited {
-        color: $white;
+        color: $color_tuatara;
       }
       &:hover {
-        background-color: $white;
+        background-color: $color_tuatara;
         color: $warning;
       }
     }
     &.btn-danger {
       background-color: $danger;
-      color: $white;
+      color: $color_tuatara;
       border-color: $danger;
       &:visited {
-        color: $white;
+        color: $color_tuatara;
       }
       &:hover {
-        background-color: $white;
+        background-color: $color_tuatara;
         color: $danger;
       }
     }
     &.btn-info {
       background-color: $info;
-      color: $white;
+      color: $color_tuatara;
       border-color: $info;
       &:visited {
-        color: $white;
+        color: $color_tuatara;
       }
       &:hover {
-        background-color: $white;
+        background-color: $color_tuatara;
         color: $info;
       }
     }
@@ -105,7 +105,17 @@ hr {
 		background-image: -moz-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
 		background-image: -ms-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
 		background-image: -o-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
-	}
+  }
+  &.hr-line-post {
+    border: 0;
+		height: 1px;
+		opacity: .45;
+		margin: 0 0;
+		background-image: -webkit-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -moz-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -ms-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -o-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+  }
 }
 
 // images and figures
