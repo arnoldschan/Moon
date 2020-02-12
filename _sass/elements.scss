@@ -137,6 +137,10 @@ img {
 	height: 150px;
 	width: 150px;
 }
+.img-inline {
+  display: inline;
+  max-height: 5em;
+}
 .author-photo {
     background-color: $white;
 }
@@ -220,3 +224,27 @@ kbd {
     font-weight: 300;
     margin-bottom: 10px;
 }
+
+.wrap {
+  display: flex;
+}
+
+.one {
+  width: 20%;
+}
+
+.two {
+  width: 80%;
+}
+
+@media (max-width: 767px) {
+  .wrap {
+    flex-direction: column;
+  }
+  .one,
+  .two {
+    width: auto;
+    text-align: center;
+  }
+}
+

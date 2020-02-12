@@ -10,6 +10,9 @@
 	@media #{$small} {
 		padding: 0 .5em;
 	}
+	ul {
+		padding-inline-start: 20px;
+	}
 }
 
 // titles
@@ -28,7 +31,7 @@
 .post-title {
 	text-align: center;
 	font-weight: bold;
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 
 // headings
@@ -181,5 +184,5 @@ table {
 
 // description title
 dt {
-    font-weight: bolder;
+	font-weight: bolder;
 }
