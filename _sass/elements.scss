@@ -17,6 +17,10 @@
 	margin: 10px;
 	@extend %btnextend;
 }
+
+.social-btn {
+  color: $color_shark;
+}
 .btn {
 	padding: 10px 18px;
 	@include font-rem(14);
@@ -24,49 +28,49 @@
 	@extend %btnextend;
 	&.btn-success {
       background-color: $success;
-      color: $white;
+      color: $color_tuatara;
       border-color: $success;
       &:visited {
-        color: $white;
+        color: $color_tuatara;
       }
       &:hover {
-        background-color: $white;
+        background-color: $color_tuatara;
         color: $success;
       }
     }
     &.btn-warning {
       background-color: $warning;
-      color: $white;
+      color: $color_tuatara;
       border-color: $warning;
       &:visited {
-        color: $white;
+        color: $color_tuatara;
       }
       &:hover {
-        background-color: $white;
+        background-color: $color_tuatara;
         color: $warning;
       }
     }
     &.btn-danger {
       background-color: $danger;
-      color: $white;
+      color: $color_tuatara;
       border-color: $danger;
       &:visited {
-        color: $white;
+        color: $color_tuatara;
       }
       &:hover {
-        background-color: $white;
+        background-color: $color_tuatara;
         color: $danger;
       }
     }
     &.btn-info {
       background-color: $info;
-      color: $white;
+      color: $color_tuatara;
       border-color: $info;
       &:visited {
-        color: $white;
+        color: $color_tuatara;
       }
       &:hover {
-        background-color: $white;
+        background-color: $color_tuatara;
         color: $info;
       }
     }
@@ -95,13 +99,23 @@ hr {
 	&.hr-line {
 		border: 0;
 		height: 1px;
-		opacity: .15;
+		opacity: .45;
 		margin: 1em 0;
-		background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	}
+		background-image: -webkit-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -moz-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -ms-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -o-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+  }
+  &.hr-line-post {
+    border: 0;
+		height: 1px;
+		opacity: .45;
+		margin: 0 0;
+		background-image: -webkit-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -moz-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -ms-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+		background-image: -o-linear-gradient(left, $color_gallery, $color_shark, $color_gallery);
+  }
 }
 
 // images and figures
@@ -122,6 +136,10 @@ img {
 	border: 3px solid $white;
 	height: 150px;
 	width: 150px;
+}
+.img-inline {
+  display: inline;
+  max-height: 5em;
 }
 .author-photo {
     background-color: $white;
@@ -206,3 +224,27 @@ kbd {
     font-weight: 300;
     margin-bottom: 10px;
 }
+
+.wrap {
+  display: flex;
+}
+
+.one {
+  width: 20%;
+}
+
+.two {
+  width: 80%;
+}
+
+@media (max-width: 767px) {
+  .wrap {
+    flex-direction: column;
+  }
+  .one,
+  .two {
+    width: auto;
+    text-align: center;
+  }
+}
+

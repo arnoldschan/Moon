@@ -19,10 +19,10 @@ body {
 	background-color: $bodycolor;
 	background-position: center center;
 	background-attachment: fixed;
-	@media #{$small} {
-	    background-image: none !important;
-		background: $white;
-	}
+	// @media #{$small} {
+	//     background-image: none !important;
+	// 	background: $white;
+	// }
 }
 * {
 	box-sizing: border-box;
@@ -39,7 +39,7 @@ body {
 	width: 100%;
 	min-height: 300px;
 	text-align: left;
-	color: $white;
+	color: $black;
 	@media #{$small} {
 		display: block !important;
 	}
@@ -75,17 +75,19 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $white;
-	color: $color_shark;
+	background-color: $capsulebg;
+	color: $capsuletext;
 	z-index: 1;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
 	@include transition(.5s);
 	@media #{$small} {
+		margin-top: 3rem;
 		width: 100%;
 	    box-shadow: none;
 	}
 	@media #{$medium} {
+		margin-top: 5rem;
 		width: 80%;
 	}
 }
@@ -104,8 +106,8 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: $white;
-	color: $color_tuatara;
+	background: $capsulebg;
+	color: $capsuletext;
 	padding: 2em;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);

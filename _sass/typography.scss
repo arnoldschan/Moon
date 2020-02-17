@@ -10,6 +10,9 @@
 	@media #{$small} {
 		padding: 0 .5em;
 	}
+	ul {
+		padding-inline-start: 20px;
+	}
 }
 
 // titles
@@ -28,15 +31,17 @@
 .post-title {
 	text-align: center;
 	font-weight: bold;
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 
 // headings
-h3.title a {
+h3.title a{
 	color: $color_shark;
 	text-decoration: none;
 }
-
+.title {
+	color: $white;
+}
 // post list
 .post-list {
     text-align: left;
@@ -48,17 +53,32 @@ h3.title a {
 		padding: 10px 18px;
 		margin: 0 10px;
 		text-decoration: none;
-		background: $white;
-		color: $color_shark;
+		background: $capsulebg;
+		color: $capsuletext;
+		// border-left: 1px solid;
+		 
 		a {
 			@include font-rem(20);
 			text-decoration: none;
-			color: $color_shark;
+			color: $capsuletext;
 			font-weight: bolder;
+
             &:hover {
                 color: $red;
-            }
+			}
 		}
+		a.btn{
+			&:link{
+				color: $black
+			}
+			&:visited{
+				color: $black
+			}
+			&:hover {
+				color: $red;
+			}
+		}
+		 
 		p {
 			font-weight: lighter;
 			@include font-rem(16);
@@ -90,13 +110,14 @@ figcaption {
 // links
 a {
   transition: color .4s;
-  color: $color_shark;
+  color: $white;
   &:link {
-  	color: $color_shark;
+  	color: $white;
   }
   &:visited {
-  	color: $color_tuatara;
+  	color: $white;
   }
+
   &:hover {
   	color: $red;
   }
@@ -104,6 +125,23 @@ a {
   	transition: color .3s;
   	color: $maroon;
   }
+}
+a.btn{  
+	transition: color .4s;
+	color: $color_shark;
+	&:link {
+		color: $color_shark;
+	}
+	&:visited {
+		color: $color_shark;
+	}
+	&:hover {
+		color: $red;
+	}
+	&:active {
+		transition: color .3s;
+		color: $maroon;
+	}
 }
 
 // pre and code
@@ -146,5 +184,5 @@ table {
 
 // description title
 dt {
-    font-weight: bolder;
+	font-weight: bolder;
 }
