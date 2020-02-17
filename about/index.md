@@ -8,6 +8,7 @@ comments: false
     
 <center>Data Engineer, Data Scientist, Python Developer</center>
 <hr class="hr-line">
+<img src="images/logo.png" style="height:12em;" alt="Arnold Samuel Chan">
 <div style="font-size:0.8em;text-align:center;">Profound at making the most of your data.<br>Speaks in Python.<br>"Whatever you do, work heartily, as for the Lord and not for men" - Colossians 3:23</div>
 
 ## History
