@@ -4,6 +4,7 @@ title: "Penniless Chatbot Architecture"
 date: 2020-03-01
 excerpt: "Create your 24/7 chatbot for free with this architecture!"
 tags: [tutorial, aws, chatbot]
+permalink: /posts/:title.html
 comments: true
 ---
 [Check on dev.to](https://dev.to/arnoldschan/penniless-chatbot-architecture-2g81)
