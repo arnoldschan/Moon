@@ -27,7 +27,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   taylantatli
+disqus_shortname:   arnold-id
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -49,6 +49,7 @@ instagram:          arnoldschan
 #lastfm:            username
 #tumblr:            username
 #medium:            '@username'
+devto:              arnoldschan
 #pinterest:         username
 #foursquare:        username
 # steam:              username

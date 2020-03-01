@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!--
+Font Awesome Free 5.12.1 by @fontawesome - https://fontawesome.com
+License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+-->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20190801 at Tue Feb  4 18:05:39 2020
+ By Robert Madole
+Copyright (c) Font Awesome
+</metadata>
+<defs>
+<font id="FontAwesome5Brands-Regular" horiz-adv-x="448" >
+  <font-face 
+    font-family="Font Awesome 5 Brands Regular"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="512"
+    panose-1="2 0 5 3 0 0 0 0 0 0"
+    ascent="448"
+    descent="-64"
+    bbox="-0.200195 -66.9505 641.5 448.3"
+    underline-thickness="25"
+    underline-position="-50"
+    unicode-range="U+0020-F957"
+  />
+    <missing-glyph />
+<glyph glyph-name="dev" unicode="&#xf6cc;" 
+d="M120.12 239.71c3.87012 -2.90039 5.82031 -7.25977 5.83008 -13.0596v-69.6504c0 -5.80957 -1.94043 -10.1602 -5.82031 -13.0596c-3.87988 -2.90039 -7.76953 -4.35059 -11.6494 -4.35059h-17.4502v104.47h17.4395c3.87988 0 7.77051 -1.44922 11.6504 -4.34961z
+M404.1 416c24.2002 0 43.8408 -19.5898 43.9004 -43.7998v-360.4c-0.0595703 -24.21 -19.6904 -43.7998 -43.9004 -43.7998h-360.199c-24.2002 0 -43.8408 19.5898 -43.9004 43.7998v360.4c0.0595703 24.21 19.7002 43.7998 43.9004 43.7998h360.199zM154.2 156.81
+l-0.00976562 70.9307c-0.0107422 18.8193 -11.9307 47.2793 -47.3701 47.2793h-47.3799v-165.46h46.3994c36.75 -0.0595703 48.3604 28.4404 48.3604 47.25zM254.88 245.47l0.00976562 29.5205h-63.1895c-11.1504 -0.280273 -19.9805 -9.54004 -19.71 -20.6904v-125.109
+c0.279297 -11.1602 9.55957 -19.9805 20.7197 -19.6904h62.1797v29.5703h-53.29v38.4102h32.5703v29.5693h-32.5703v38.4199h53.2803zM358.52 130.18l38.4609 144.801h-32.5801l-29.5703 -113.721l-29.71 113.721h-32.5703l38.5303 -144.801
+c10.5898 -24.6299 34.2402 -30.75 47.4395 0z" />
+  </font>
+</defs></svg>
